@@ -1,0 +1,382 @@
+[jslee@shamata mmalloc] $ ./mmalloc 
+initial increment is 131072
+incrementing by 131072 to 262144 bytes
+speeding up to 262144-byte steps
+incrementing by 262144 to 524288 bytes
+speeding up to 524288-byte steps
+incrementing by 524288 to 1048576 bytes
+speeding up to 1048576-byte steps
+incrementing by 1048576 to 2097152 bytes
+speeding up to 2097152-byte steps
+incrementing by 2097152 to 4194304 bytes
+speeding up to 4194304-byte steps
+incrementing by 4194304 to 8388608 bytes
+speeding up to 8388608-byte steps
+incrementing by 8388608 to 16777216 bytes
+speeding up to 16777216-byte steps
+incrementing by 16777216 to 33554432 bytes
+speeding up to 33554432-byte steps
+incrementing by 33554432 to 67108864 bytes
+speeding up to 67108864-byte steps
+incrementing by 67108864 to 134217728 bytes
+speeding up to 134217728-byte steps
+incrementing by 134217728 to 268435456 bytes
+speeding up to 268435456-byte steps
+incrementing by 268435456 to 536870912 bytes
+speeding up to 536870912-byte steps
+incrementing by 536870912 to 1073741824 bytes
+speeding up to 1073741824-byte steps
+incrementing by 1073741824 to 2147483648 bytes
+speeding up to 2147483648-byte steps
+incrementing by 2147483648 to 4294967296 bytes
+speeding up to 4294967296-byte steps
+incrementing by 4294967296 to 8589934592 bytes
+speeding up to 8589934592-byte steps
+incrementing by 8589934592 to 17179869184 bytes
+speeding up to 17179869184-byte steps
+incrementing by 17179869184 to 34359738368 bytes
+speeding up to 34359738368-byte steps
+incrementing by 34359738368 to 68719476736 bytes
+speeding up to 68719476736-byte steps
+incrementing by 68719476736 to 137438953472 bytes
+speeding up to 137438953472-byte steps
+incrementing by 137438953472 to 274877906944 bytes
+speeding up to 274877906944-byte steps
+incrementing by 274877906944 to 549755813888 bytes
+speeding up to 549755813888-byte steps
+incrementing by 549755813888 to 1099511627776 bytes
+speeding up to 1099511627776-byte steps
+incrementing by 1099511627776 to 2199023255552 bytes
+speeding up to 2199023255552-byte steps
+incrementing by 2199023255552 to 4398046511104 bytes
+speeding up to 4398046511104-byte steps
+incrementing by 4398046511104 to 8796093022208 bytes
+speeding up to 8796093022208-byte steps
+incrementing by 8796093022208 to 17592186044416 bytes
+speeding up to 17592186044416-byte steps
+incrementing by 17592186044416 to 35184372088832 bytes
+speeding up to 35184372088832-byte steps
+incrementing by 35184372088832 to 70368744177664 bytes
+speeding up to 70368744177664-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 35184372088832-byte steps
+incrementing by 35184372088832 to 105553116266496 bytes
+speeding up to 70368744177664-byte steps
+mmalloc(3499) malloc: *** mmap(size=175921860444160) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 35184372088832-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 17592186044416-byte steps
+incrementing by 17592186044416 to 123145302310912 bytes
+speeding up to 35184372088832-byte steps
+mmalloc(3499) malloc: *** mmap(size=158329674399744) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 17592186044416-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8796093022208-byte steps
+incrementing by 8796093022208 to 131941395333120 bytes
+speeding up to 17592186044416-byte steps
+mmalloc(3499) malloc: *** mmap(size=149533581377536) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8796093022208-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4398046511104-byte steps
+incrementing by 4398046511104 to 136339441844224 bytes
+speeding up to 8796093022208-byte steps
+mmalloc(3499) malloc: *** mmap(size=145135534866432) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4398046511104-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2199023255552-byte steps
+incrementing by 2199023255552 to 138538465099776 bytes
+speeding up to 4398046511104-byte steps
+mmalloc(3499) malloc: *** mmap(size=142936511610880) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2199023255552-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1099511627776-byte steps
+incrementing by 1099511627776 to 139637976727552 bytes
+speeding up to 2199023255552-byte steps
+mmalloc(3499) malloc: *** mmap(size=141836999983104) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1099511627776-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 549755813888-byte steps
+incrementing by 549755813888 to 140187732541440 bytes
+speeding up to 1099511627776-byte steps
+mmalloc(3499) malloc: *** mmap(size=141287244169216) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 549755813888-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 274877906944-byte steps
+incrementing by 274877906944 to 140462610448384 bytes
+speeding up to 549755813888-byte steps
+mmalloc(3499) malloc: *** mmap(size=141012366262272) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 274877906944-byte steps
+mmalloc(3499) malloc: *** mmap(size=140737488355328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 137438953472-byte steps
+mmalloc(3499) malloc: *** mmap(size=140600049401856) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 68719476736-byte steps
+mmalloc(3499) malloc: *** mmap(size=140531329925120) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 34359738368-byte steps
+incrementing by 34359738368 to 140496970186752 bytes
+speeding up to 68719476736-byte steps
+mmalloc(3499) malloc: *** mmap(size=140565689663488) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 34359738368-byte steps
+mmalloc(3499) malloc: *** mmap(size=140531329925120) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 17179869184-byte steps
+mmalloc(3499) malloc: *** mmap(size=140514150055936) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8589934592-byte steps
+mmalloc(3499) malloc: *** mmap(size=140505560121344) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4294967296-byte steps
+incrementing by 4294967296 to 140501265154048 bytes
+speeding up to 8589934592-byte steps
+mmalloc(3499) malloc: *** mmap(size=140509855088640) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4294967296-byte steps
+mmalloc(3499) malloc: *** mmap(size=140505560121344) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2147483648-byte steps
+mmalloc(3499) malloc: *** mmap(size=140503412637696) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1073741824-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502338895872) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 536870912-byte steps
+incrementing by 536870912 to 140501802024960 bytes
+speeding up to 1073741824-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502875766784) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 536870912-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502338895872) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 268435456-byte steps
+incrementing by 268435456 to 140502070460416 bytes
+speeding up to 536870912-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502607331328) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 268435456-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502338895872) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 134217728-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 67108864-byte steps
+incrementing by 67108864 to 140502137569280 bytes
+speeding up to 134217728-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502271787008) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 67108864-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 33554432-byte steps
+incrementing by 33554432 to 140502171123712 bytes
+speeding up to 67108864-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502238232576) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 33554432-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 16777216-byte steps
+incrementing by 16777216 to 140502187900928 bytes
+speeding up to 33554432-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502221455360) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 16777216-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8388608-byte steps
+incrementing by 8388608 to 140502196289536 bytes
+speeding up to 16777216-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502213066752) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8388608-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4194304-byte steps
+incrementing by 4194304 to 140502200483840 bytes
+speeding up to 8388608-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502208872448) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4194304-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2097152-byte steps
+incrementing by 2097152 to 140502202580992 bytes
+speeding up to 4194304-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502206775296) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2097152-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1048576-byte steps
+incrementing by 1048576 to 140502203629568 bytes
+speeding up to 2097152-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502205726720) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1048576-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204678144) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 524288-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502204153856) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 262144-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203891712) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 131072-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203760640) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 65536-byte steps
+incrementing by 65536 to 140502203695104 bytes
+speeding up to 131072-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203826176) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 65536-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203760640) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 32768-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203727872) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 16384-byte steps
+incrementing by 16384 to 140502203711488 bytes
+speeding up to 32768-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203744256) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 16384-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203727872) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8192-byte steps
+incrementing by 8192 to 140502203719680 bytes
+speeding up to 16384-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203736064) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8192-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203727872) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4096-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2048-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1024-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 512-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 256-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 128-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 64-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 32-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 16-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 8-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 4-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 2-byte steps
+mmalloc(3499) malloc: *** mmap(size=140502203723776) failed (error code=12)
+*** error: can't allocate region
+*** set a breakpoint in malloc_error_break to debug
+slowing down to 1-byte steps
+
+
+allocated 140502203719680 bytes of memory
+steps=171
+speedups=51
+slowdowns=68

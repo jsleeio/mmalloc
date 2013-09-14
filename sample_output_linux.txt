@@ -1,0 +1,99 @@
+[jslee@services mmalloc]$ ulimit -v
+75000
+[jslee@services mmalloc]$ ./mmalloc 
+initial increment is 131072
+incrementing by 131072 to 262144 bytes
+speeding up to 262144-byte steps
+incrementing by 262144 to 524288 bytes
+speeding up to 524288-byte steps
+incrementing by 524288 to 1048576 bytes
+speeding up to 1048576-byte steps
+incrementing by 1048576 to 2097152 bytes
+speeding up to 2097152-byte steps
+incrementing by 2097152 to 4194304 bytes
+speeding up to 4194304-byte steps
+incrementing by 4194304 to 8388608 bytes
+speeding up to 8388608-byte steps
+incrementing by 8388608 to 16777216 bytes
+speeding up to 16777216-byte steps
+incrementing by 16777216 to 33554432 bytes
+speeding up to 33554432-byte steps
+incrementing by 33554432 to 67108864 bytes
+speeding up to 67108864-byte steps
+slowing down to 33554432-byte steps
+slowing down to 16777216-byte steps
+slowing down to 8388608-byte steps
+slowing down to 4194304-byte steps
+incrementing by 4194304 to 71303168 bytes
+speeding up to 8388608-byte steps
+slowing down to 4194304-byte steps
+slowing down to 2097152-byte steps
+slowing down to 1048576-byte steps
+incrementing by 1048576 to 72351744 bytes
+speeding up to 2097152-byte steps
+slowing down to 1048576-byte steps
+slowing down to 524288-byte steps
+slowing down to 262144-byte steps
+incrementing by 262144 to 72613888 bytes
+speeding up to 524288-byte steps
+slowing down to 262144-byte steps
+slowing down to 131072-byte steps
+slowing down to 65536-byte steps
+incrementing by 65536 to 72679424 bytes
+speeding up to 131072-byte steps
+slowing down to 65536-byte steps
+slowing down to 32768-byte steps
+incrementing by 32768 to 72712192 bytes
+speeding up to 65536-byte steps
+slowing down to 32768-byte steps
+slowing down to 16384-byte steps
+incrementing by 16384 to 72728576 bytes
+speeding up to 32768-byte steps
+slowing down to 16384-byte steps
+slowing down to 8192-byte steps
+slowing down to 4096-byte steps
+incrementing by 4096 to 72732672 bytes
+speeding up to 8192-byte steps
+slowing down to 4096-byte steps
+slowing down to 2048-byte steps
+incrementing by 2048 to 72734720 bytes
+speeding up to 4096-byte steps
+slowing down to 2048-byte steps
+slowing down to 1024-byte steps
+incrementing by 1024 to 72735744 bytes
+speeding up to 2048-byte steps
+slowing down to 1024-byte steps
+slowing down to 512-byte steps
+incrementing by 512 to 72736256 bytes
+speeding up to 1024-byte steps
+slowing down to 512-byte steps
+slowing down to 256-byte steps
+incrementing by 256 to 72736512 bytes
+speeding up to 512-byte steps
+slowing down to 256-byte steps
+slowing down to 128-byte steps
+incrementing by 128 to 72736640 bytes
+speeding up to 256-byte steps
+slowing down to 128-byte steps
+slowing down to 64-byte steps
+incrementing by 64 to 72736704 bytes
+speeding up to 128-byte steps
+slowing down to 64-byte steps
+slowing down to 32-byte steps
+incrementing by 32 to 72736736 bytes
+speeding up to 64-byte steps
+slowing down to 32-byte steps
+slowing down to 16-byte steps
+slowing down to 8-byte steps
+incrementing by 8 to 72736744 bytes
+speeding up to 16-byte steps
+slowing down to 8-byte steps
+slowing down to 4-byte steps
+slowing down to 2-byte steps
+slowing down to 1-byte steps
+
+
+allocated 72736744 bytes of memory
+steps=90
+speedups=24
+slowdowns=41

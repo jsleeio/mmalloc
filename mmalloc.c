@@ -45,6 +45,7 @@ int main(int argc, char** argv) {
 		if (stop)
 			break;
 	}
+	free(p);
 	printf(	"\n\n"
 		"allocated %zd bytes of memory\n"
 		"steps=%d\n"
@@ -55,6 +56,5 @@ int main(int argc, char** argv) {
 		speedups,
 		slowdowns
 	);
-		
-		
+	return 0;
 }
