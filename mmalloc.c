@@ -27,10 +27,12 @@ int main(int argc, char** argv) {
 	signal(SIGHUP,  handle_interruption);
 	void* p = malloc(s);
 	while (increment > 1) {
-		if ((p = realloc(p, s + increment)) != NULL) {
+		void *newp = realloc(p, s + increment);
+		if (newp != NULL) {
+			p = newp;
 			s += increment;
 			steps++;
-			printf("incrementing to %zd bytes\n", s);
+			printf("incrementing by %zd to %zd bytes\n", increment, s);
 			increment *= 2;
 			speedups++;
 			printf("speeding up to %zd-byte steps\n", increment);
@@ -44,11 +46,11 @@ int main(int argc, char** argv) {
 			break;
 	}
 	printf(	"\n\n"
-		"allocated %zdMB memory\n"
+		"allocated %zd bytes of memory\n"
 		"steps=%d\n"
 		"speedups=%d\n"
 		"slowdowns=%d\n",
-		s / 1048576,
+		s,
 		steps,
 		speedups,
 		slowdowns
